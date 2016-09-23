@@ -1,0 +1,7 @@
+# This test fails with "Connection timed out"
+rm src/test/java/org/apache/commons/net/time/TimeTCPClientTest.java
+# Fails in Koji with "Address already in use"
+rm src/test/java/org/apache/commons/net/tftp/TFTPServerPathTest.java
+
+python3 /usr/share/java-utils/mvn_file.py  : commons-net apache-commons-net
+python3 /usr/share/java-utils/mvn_alias.py : org.apache.commons:commons-net
