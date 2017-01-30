@@ -4,7 +4,7 @@
 #
 Name     : jdk-commons-net
 Version  : 3.5
-Release  : 1
+Release  : 2
 URL      : http://archive.apache.org/dist/commons/net/source/commons-net-3.5-src.tar.gz
 Source0  : http://archive.apache.org/dist/commons/net/source/commons-net-3.5-src.tar.gz
 Summary  : No detailed summary available
